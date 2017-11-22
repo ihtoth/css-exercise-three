@@ -22,26 +22,34 @@ nav {
 
 .restaurant-list {
   padding-top: 50px;
-  display:block;
   width: 100%;
-  background-color: #000;
+}
+
+.content, .arrow{
+  float: left;
+  border-bottom: 1px black solid;
 }
 
 .content {
   background-color: #EEE;
+  display: inline-block;
   width: 85%;
   padding: 3% 5%;
-  float: left;
-  border-bottom: 1px black solid;
 }
 
 .arrow{
-  /*border: 1px black solid;*/
   background-color: #EEE;
+  display: inline-block;
   width: 15%;
-  padding: 0% 2%;
-  float: left;
-  border-bottom: 1px black solid;
+  padding: 2%;
+}
+
+.location:hover{
+  color: #999;
+
+}
+.location{
+  background-color: #EEE;
 }
 
 .content h1{
