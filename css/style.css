@@ -29,31 +29,34 @@ nav {
   /*background-color: #EEE;*/
   display: inline-block;
   float: left;
-  margin-bottom: 1px ;
 }
 
 .content {
-  width: 85%;
+  width: 90%;
   padding: 3% 5%;
 }
 
 .arrow{
-  width: 15%;
-  padding: 24px 2% 24px 2%;
+  width: 10%;
+  padding: 24px 0% 24px 2%;
 }
 
 .location:hover{
-  color: #999;
+  background-color: #BBB;
 
 }
 .location{
+  overflow: hidden;
   background-color: #EEE;
+  margin-bottom: 1px;
 }
 
 .content h1{
+  width: 100%;
   font-size: 2em;
   line-height: 1.5em;
 }
 .content h3{
+  width: 100%;
   font-size: 1.3em;
 }
