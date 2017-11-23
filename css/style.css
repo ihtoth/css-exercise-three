@@ -32,14 +32,13 @@ nav {
 }
 
 .content {
-  width: 90%;
+  width: 92%;
   padding: 3% 5%;
 }
 
 .arrow{
-  width: 10%;
-  line-height: 70px;
-  /*padding: 24px 0% 24px 2%;*/
+  width: 8%;
+  margin: 25px 0;
 }
 
 .location:hover{
@@ -53,13 +52,15 @@ nav {
 }
 
 .content h1{
+  display: inline-block;
   width: 100%;
   font-size: 2em;
   line-height: 1.5em;
-  display: inline-block;
+  font-weight: 800;
+
 }
 .content h3{
+  display: inline-block;
   width: 100%;
   font-size: 1.3em;
-  display:inline-block;
 }
