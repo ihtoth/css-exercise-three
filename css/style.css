@@ -38,7 +38,8 @@ nav {
 
 .arrow{
   width: 10%;
-  padding: 24px 0% 24px 2%;
+  line-height: 70px;
+  /*padding: 24px 0% 24px 2%;*/
 }
 
 .location:hover{
@@ -55,8 +56,10 @@ nav {
   width: 100%;
   font-size: 2em;
   line-height: 1.5em;
+  display: inline-block;
 }
 .content h3{
   width: 100%;
   font-size: 1.3em;
+  display:inline-block;
 }
