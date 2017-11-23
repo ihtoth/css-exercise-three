@@ -26,22 +26,20 @@ nav {
 }
 
 .content, .arrow{
+  /*background-color: #EEE;*/
+  display: inline-block;
   float: left;
-  border-bottom: 1px black solid;
+  margin-bottom: 1px ;
 }
 
 .content {
-  background-color: #EEE;
-  display: inline-block;
   width: 85%;
   padding: 3% 5%;
 }
 
 .arrow{
-  background-color: #EEE;
-  display: inline-block;
   width: 15%;
-  padding: 2%;
+  padding: 24px 2% 24px 2%;
 }
 
 .location:hover{
